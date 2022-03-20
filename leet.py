@@ -18,8 +18,8 @@ class leet:
        self.save = save
        self.solo_style = open("design/solo.txt", "r").read()
        self.team_style = open("design/team.txt", "r").read()
-       self.solo_page = '<!DOCTYPE html><html><head><title>{0}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"><style>{1}</style></head><body><div><img src="{2}" class="logo"width="240px" height="200px"></img><h1 class="codename">{3}</h1><h3>{4}</h3></div></body></html>'
-       self.team_page = '<!DOCTYPE html><html><head><title>{0}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inspiration&family=Palette+Mosaic&family=Smooch+Sans:wght@100&family=Syne+Mono&display=swap"><style>{1}</style></head><body><div><img src="{2}" width="240px" height="200px"></img><h1 class="team">{3}</h1></br><h2>Greetings</h2><div class="cut"><h3><marquee>{4}</marquee></h3></div></br><h3>{5}</h3></div></body></html>'
+       self.solo_page = '<!DOCTYPE html><html><head><title>{0}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"><style>{1}</style></head><body><div><img src="{2}" class="logo"width="340px" height="200px"></img><h1 class="codename">{3}</h1><h3>{4}</h3></div></body></html>'
+       self.team_page = '<!DOCTYPE html><html><head><title>{0}</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster&family=Inspiration&family=Palette+Mosaic&family=Smooch+Sans:wght@100&family=Syne+Mono&display=swap"><style>{1}</style></head><body><div><img src="{2}" width="340px" height="200px"></img><h1 class="team">{3}</h1></br><h2>Greetings</h2><div class="cut"><h3><marquee>{4}</marquee></h3></div></br><h3>{5}</h3></div></body></html>'
    
    # for choosing a solo
    def solo(self):
