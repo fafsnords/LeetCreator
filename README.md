@@ -3,7 +3,7 @@
 **Leet** is a creation tool deface page for beginners or advance you can create your own deface page
 ### Installation
 ```
-$ git clonehttps://github.com/fafsnords/LeetCreator
+$ git clone https://github.com/fafsnords/LeetCreator
 
 $ cd LeetCreator
 
