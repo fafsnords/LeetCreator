@@ -42,7 +42,7 @@ class leet:
        if self.save != "":
          with open("{0}.html".format(self.save), "w") as page:
               page.write(self.team_page.format(self.title, self.team_style, self.image, self.codename, self.greetings, self.message))
-              print(Fore.BLUE + "\nVisit The Location of File You Save\n")
+              print(Fore.GREEN + "\nVisit The Location of File You Save\n")
               input()
          page.close()
        else:
